@@ -41,6 +41,7 @@
             this.pbHuella = new System.Windows.Forms.PictureBox();
             this.lbEstadoPuerto = new System.Windows.Forms.Label();
             this.lbEstadoLector = new System.Windows.Forms.Label();
+            this.lbMuestras = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pbHuella)).BeginInit();
             this.SuspendLayout();
             // 
@@ -164,6 +165,7 @@
             this.pbHuella.Location = new System.Drawing.Point(18, 261);
             this.pbHuella.Name = "pbHuella";
             this.pbHuella.Size = new System.Drawing.Size(97, 110);
+            this.pbHuella.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pbHuella.TabIndex = 15;
             this.pbHuella.TabStop = false;
             // 
@@ -180,15 +182,24 @@
             // lbEstadoLector
             // 
             this.lbEstadoLector.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbEstadoLector.Location = new System.Drawing.Point(156, 316);
+            this.lbEstadoLector.Location = new System.Drawing.Point(156, 346);
             this.lbEstadoLector.Name = "lbEstadoLector";
             this.lbEstadoLector.Size = new System.Drawing.Size(264, 25);
             this.lbEstadoLector.TabIndex = 16;
+            // 
+            // lbMuestras
+            // 
+            this.lbMuestras.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbMuestras.Location = new System.Drawing.Point(156, 302);
+            this.lbMuestras.Name = "lbMuestras";
+            this.lbMuestras.Size = new System.Drawing.Size(264, 25);
+            this.lbMuestras.TabIndex = 17;
             // 
             // UCRegistrar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lbMuestras);
             this.Controls.Add(this.lbEstadoLector);
             this.Controls.Add(this.pbHuella);
             this.Controls.Add(this.cbHuella);
@@ -224,5 +235,6 @@
         private System.Windows.Forms.PictureBox pbHuella;
         private System.Windows.Forms.Label lbEstadoPuerto;
         private System.Windows.Forms.Label lbEstadoLector;
+        private System.Windows.Forms.Label lbMuestras;
     }
 }

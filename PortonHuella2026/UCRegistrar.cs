@@ -16,6 +16,7 @@ namespace PortonHuella2026
     {
         private RepUsuarios _repUsuarios { get; set; }
         private Usuario _usuario { get; set; }
+        private bool _lectorInicializado = false;
         public UCRegistrar()
         {
             InitializeComponent();
@@ -30,6 +31,7 @@ namespace PortonHuella2026
             try
             {
                 LectorHuella.Inicializar();
+                _lectorInicializado = true;
             }
             catch 
             {
@@ -55,12 +57,19 @@ namespace PortonHuella2026
         //manejadores de eventos
         private void HuellaEscaneadaIdentificacion(int id)
         {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep1.wav");
+            player.Play();
             _usuario = _repUsuarios.GetById(id);
-            _cargarForm();
+            Action cargarF = _cargarForm;
+            this.Invoke(cargarF);
+            Action habilitiarF = _habilitarForm;
+            this.Invoke(habilitiarF);
         }
         private void ErrorCapturaHuella(string msjError)
         {
-            MessageBox.Show("Error", "Se produjo el siguiente error" + msjError);
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep_error.wav");
+            player.Play();
+            MessageBox.Show("Se produjo el siguiente error: " + msjError, "Control de Acceso");
             LectorHuella.IniciarIdentificacion();
             lbEstadoLector.Text = "Identificando...";
             _limpiarForm();
@@ -68,8 +77,10 @@ namespace PortonHuella2026
         }
         private void HuellaCatpuradaCorrectamenteRegistro(string mensaje)
         {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep2.wav");
+            player.Play();
             //lbEstadoLector.Text = "";
-            Action<string> fnEstado = SetEstadoLector;
+            Action<string> fnEstado = SetLabelMuestras;
             this.Invoke(fnEstado, "");
             
             pbHuella.Image = LectorHuella.GetImagenHuella();
@@ -88,11 +99,17 @@ namespace PortonHuella2026
         {
             lbEstadoLector.Text = estado;
         }
+        public void SetLabelMuestras(string estado)
+        {
+            lbMuestras.Text = estado;
+        }
         private void HuellaEscaneadaRegistro(int faltan)
         {
+            System.Media.SoundPlayer player = new System.Media.SoundPlayer("beep1.wav");
+            player.Play();
             //lbEstadoLector.Text = "Faltan " + faltan + "muestras...";
             string estado = "Faltan " + faltan + "muestras..."; 
-            Action<string> fnEstado = SetEstadoLector;
+            Action<string> fnEstado = SetLabelMuestras;
             this.Invoke(fnEstado, estado);
             pbHuella.Image = LectorHuella.GetImagenHuella();
         }
@@ -112,6 +129,7 @@ namespace PortonHuella2026
             txtEmail.Enabled = true;
             txtNombre.Enabled = true;
             txtTelefono.Enabled = true;
+
         }
 
         private void _deshabilitarForm()
@@ -127,6 +145,7 @@ namespace PortonHuella2026
             txtNombre.Text = "";
             txtTelefono.Text = "";
             cbHuella.Checked = false;
+            pbHuella.Image = null;
         }
 
         private void _cargarForm()
@@ -134,14 +153,17 @@ namespace PortonHuella2026
             txtEmail.Text = _usuario.Email;
             txtNombre.Text = _usuario.Nombre;
             txtTelefono.Text = _usuario.Telefono;
-            cbHuella.Checked = false;
+            if (! string.IsNullOrEmpty(_usuario.TemplateHuella))
+                cbHuella.Checked = true;
+            else
+                cbHuella.Checked = false;
         }
 
         private void btnGuardar_Click(object sender, EventArgs e)
         {
             if (!cbHuella.Checked || txtNombre.Text.Trim() == "" || txtEmail.Text.Trim() == "")
             {
-                MessageBox.Show("Seguridad de Accesso", "Existen datos obligatorios que deben completarse.");
+                MessageBox.Show("Existen datos obligatorios que deben completarse.", "Seguridad de Accesso");
                 return;
             }
             if (_usuario.Id == 0) //usuario nuevo -> POST
@@ -159,7 +181,8 @@ namespace PortonHuella2026
                     template = _usuario.TemplateHuella
                 };
                 LectorHuella.AgregarACacheLector(elementoCache);
-
+                LectorHuella.IniciarIdentificacion();
+                lbEstadoLector.Text = "Identificando...";
             }
             else //se está actualizando un usuario existente -> PUT 
             {
@@ -167,6 +190,10 @@ namespace PortonHuella2026
                 _usuario.Email = txtEmail.Text;
                 _usuario.Telefono = txtTelefono.Text;
                 _repUsuarios.Put(_usuario);
+                _deshabilitarForm();
+                _limpiarForm();
+                LectorHuella.IniciarIdentificacion();
+                lbEstadoLector.Text = "Identificando...";
             }
         }
 
