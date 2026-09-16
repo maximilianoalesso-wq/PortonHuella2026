@@ -3,32 +3,36 @@
   "WorkspaceRootPath": "C:\\Temp\\codigos\\PortonHuella2026\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\repositorio\\repusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\repositorio\\repusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|c:\\temp\\codigos\\portonhuella2026\\portonhuella2026\\ucajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucidentificar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\ucajustes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucajustes.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|c:\\temp\\codigos\\portonhuella2026\\portonhuella2026\\ucajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucajustes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|c:\\temp\\codigos\\portonhuella2026\\portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|c:\\temp\\codigos\\portonhuella2026\\portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\buscarusuarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|C:\\Temp\\codigos\\PortonHuella2026\\portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{34E69222-BF91-4AC8-80F8-D872FE2F6517}|PortonHuella2026\\PortonHuella2026.csproj|solutionrelative:portonhuella2026\\ucregistrar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,91 +47,97 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UCAjustes.Designer.cs",
+              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCAjustes.Designer.cs",
+              "RelativeDocumentMoniker": "PortonHuella2026\\UCAjustes.Designer.cs",
+              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCAjustes.Designer.cs",
+              "RelativeToolTip": "PortonHuella2026\\UCAjustes.Designer.cs",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAAF0AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T21:12:49.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Form1.cs",
+              "RelativeDocumentMoniker": "PortonHuella2026\\Form1.cs",
+              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PortonHuella2026\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T21:05:54.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UCIdentificar.cs",
+              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCIdentificar.cs",
+              "RelativeDocumentMoniker": "PortonHuella2026\\UCIdentificar.cs",
+              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCIdentificar.cs",
+              "RelativeToolTip": "PortonHuella2026\\UCIdentificar.cs",
+              "ViewState": "AQIAAGoAAAAAAAAAAAApwHQAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-09T21:04:02.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UCRegistrar.cs",
+              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs",
+              "RelativeDocumentMoniker": "PortonHuella2026\\UCRegistrar.cs",
+              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs",
+              "RelativeToolTip": "PortonHuella2026\\UCRegistrar.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAcwBkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-24T19:17:58.493Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "UCAjustes.cs",
               "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCAjustes.cs",
               "RelativeDocumentMoniker": "PortonHuella2026\\UCAjustes.cs",
               "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCAjustes.cs",
               "RelativeToolTip": "PortonHuella2026\\UCAjustes.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAAAhAAAA",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwB8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-09-09T19:42:39.725Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "UCRegistrar.cs [Dise\u00F1o]",
               "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs",
               "RelativeDocumentMoniker": "PortonHuella2026\\UCRegistrar.cs",
               "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs [Dise\u00F1o]",
               "RelativeToolTip": "PortonHuella2026\\UCRegistrar.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T18:29:03.307Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-06-24T18:29:03.307Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BuscarUsuarioForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\BuscarUsuarioForm.cs",
-              "RelativeDocumentMoniker": "PortonHuella2026\\BuscarUsuarioForm.cs",
-              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\BuscarUsuarioForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PortonHuella2026\\BuscarUsuarioForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T18:17:13.42Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Form1.cs",
               "RelativeDocumentMoniker": "PortonHuella2026\\Form1.cs",
               "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Form1.cs",
               "RelativeToolTip": "PortonHuella2026\\Form1.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwDwAAAAnAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAApwEMAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-03T20:09:05.097Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-06-03T20:09:05.097Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RepUsuarios.cs",
-              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Repositorio\\RepUsuarios.cs",
-              "RelativeDocumentMoniker": "PortonHuella2026\\Repositorio\\RepUsuarios.cs",
-              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\Repositorio\\RepUsuarios.cs",
-              "RelativeToolTip": "PortonHuella2026\\Repositorio\\RepUsuarios.cs",
-              "ViewState": "AQIAADkAAAAAAAAAAAA9wEQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T18:29:48.798Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UCRegistrar.cs",
-              "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs",
-              "RelativeDocumentMoniker": "PortonHuella2026\\UCRegistrar.cs",
-              "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\UCRegistrar.cs",
-              "RelativeToolTip": "PortonHuella2026\\UCRegistrar.cs",
-              "ViewState": "AQIAALIAAAAAAAAAAAAYwMIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-24T19:17:58.493Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "BuscarUsuarioForm.cs",
               "DocumentMoniker": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\BuscarUsuarioForm.cs",
               "RelativeDocumentMoniker": "PortonHuella2026\\BuscarUsuarioForm.cs",
               "ToolTip": "C:\\Temp\\codigos\\PortonHuella2026\\PortonHuella2026\\BuscarUsuarioForm.cs",
               "RelativeToolTip": "PortonHuella2026\\BuscarUsuarioForm.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAPAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-09T19:42:16.311Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-09T19:42:16.311Z"
             }
           ]
         }

@@ -103,6 +103,12 @@
     <Compile Include="UCAjustes.Designer.cs">
       <DependentUpon>UCAjustes.cs</DependentUpon>
     </Compile>
+    <Compile Include="UCIdentificar.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UCIdentificar.Designer.cs">
+      <DependentUpon>UCIdentificar.cs</DependentUpon>
+    </Compile>
     <Compile Include="UCRegistrar.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -127,6 +133,9 @@
     </Compile>
     <EmbeddedResource Include="UCAjustes.resx">
       <DependentUpon>UCAjustes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UCIdentificar.resx">
+      <DependentUpon>UCIdentificar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UCRegistrar.resx">
       <DependentUpon>UCRegistrar.cs</DependentUpon>

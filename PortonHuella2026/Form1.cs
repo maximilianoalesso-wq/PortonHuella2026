@@ -58,9 +58,17 @@ namespace PortonHuella2026
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            UCRegistrar uCRegistrar = new UCRegistrar();
+            UCIdentificar uCIdentificar = new UCIdentificar(_puertoArduino);
+            this.panelPrincipal.Controls.Clear();
+            this.panelPrincipal.Controls.Add(uCIdentificar);
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            UCIdentificar uCRegistrar = new UCIdentificar(_puertoArduino);
             this.panelPrincipal.Controls.Clear();
             this.panelPrincipal.Controls.Add(uCRegistrar);
+
         }
     }
 }
