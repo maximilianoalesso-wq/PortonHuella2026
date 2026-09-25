@@ -118,31 +118,6 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="pbIcon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAC4AAAAuCAYAAABXuSs3AAAABGdBTUEAALGPC/xhBQAABIxJREFUaEPt
-        mUmIHGUUx9sFMtNd7yPu+76D68GDFxEXMHpQQdCDqMSLePAmooiMeFCJ6feq3quejBIVjB5GRXBBRUQN
-        MSoBEQWVIBoQBNeIRjFxGXnV3WPVvyq9z+QyP/hg6O//vffvV9XfNrXaCivsG+qqR0esl+RbI02PRN0+
-        h6R1RhB7MIjOE9tnQWyhqrX7dD6IPTDFrZMxzrJBsV1DrG+hwUEbib3aELsC4y4ZUTx7dmDdhkZGbcS6
-        eUr1JMwzUYIkN2PiUmPdFdh2kNgH3vzv7DPU4ZjYrsJ8EyES41LCTiPRzyOx+1YlySk4rkuI49MisftJ
-        dDuO7zbvx3FjQWxbMUm76euR2MWo70eDk8tJ7O1yvKwIL6J+JALrsxXBvye2i1A7LBHrpUF0Z0X8h1A7
-        FJHoHRg0iH45HcfHo3ZUaL2dTqLfYJ5GbJehdiBI9UwMlr2fzebBqB0XX7TQPLF9V2Nejdq+kNh7UOmd
-        oZmeirpJ0UiS84j1DzC/EXU9CaxrsNr+g0LdpAmiN2HeoVZZXBGJ9QXULBU4g0ViMWoqmeLZEwumxfZM
-        r0+PQ92o+KaLWN+pPbKRsM9pcHo+VP3n2szMgagrQWz3FKttz6FmVDLTon92nuIn0brZw1HjEOuWvIdG
-        nF6JmhIk9m7BeGy3oGYUfENFrLsL1WR9A3UOid1b8CDaRE2JbkXaA+zfSUx/mWmxPUXTtmO6OXsMap2G
-        tM4tGGfdjJoC/i5jcNQMS+Dk6mFMdyHWv3LGv8X+Aj6XFhPoh6jpQo/OHYqfIcR6LYn9XTKdJMeiFsHN
-        WM8faKOp5+TFJPYyahxfiLwKvmPEvi4U23X5qi2a7lPpLoH1zfzYnl/Wt56FRGKvoaaeJBeQ2I85My3U
-        ZKarKj2gacd3noXxvVbtOs8dlRcT68eoIban4Mv5lPl4bWFhP++PYruRWP8pavSrnhWrwKfLfIy9TZ1t
-        Zmb2z1fKt68o8XeNxJ4vmRd9wpfsSZh2AutPi7FZd2N/CRL9NJ+4MqmbZ30FzZfakK9HlymzE4pxdBtq
-        SrQr9/+gKNbbUZPRz/yIpp0gdifEMtSUIE5vzQ9yc6hZZG/mxzDt4IwScXo9asowr84vGP7O9zoEl8yP
-        aTri9KxsxV6Mp7tqSbIKdZX4xqpYdXsJNQXm5w/wUz6JPRklyWHYPQx4iM5mrEHxg3B+cOebr0HdpIlE
-        b8C8foREXU9851Y0br/4AoW6SdHZWP1eMC36NOr64tdiFYG211qtg1A7Lg2RIyoOyz+Q2SGoHQgSva30
-        6MS+WI7rCT90oHYogmiKQf3qoC7phagdFjeXvYIYX+xu1I4EiW3A4J0EGwbZ3iK+GgfRZzBeJ+ZdqB+L
-        9uV9OZFXzFdb31z12gj560VsawPbplKMrmm2tThuIvj5E5NVtN+C2Nck+n52j+7XzPAjLzW2X5f83sZX
-        UdzPjNr85orEHu71pCZO5z8Txbl+wJZdtbFt8jtDjLt8JElon3j0sSD6kT/2ktH2tfRWYl23rP/3GRa/
-        0vAjnh++a3NzdexfYYVl5D8X4g4GGYDlWQAAAABJRU5ErkJggg==
-</value>
-  </data>
   <data name="pbHuella.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAK0AAADfCAIAAAALJ8TeAAAABGdBTUEAALGPC/xhBQAAABl0RVh0U29m
@@ -887,5 +862,8 @@
   </data>
   <metadata name="puertoArduino.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
+  </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>25</value>
   </metadata>
 </root>

@@ -41,11 +41,33 @@ namespace PortonHuella2026
 
         private void btnAjuste_Click(object sender, EventArgs e)
         {
+            FinalizarLector();
             UCAjustes uCAjustes = new UCAjustes(this);
+            int x = (panelPrincipal.Width - uCAjustes.Width) / 2;
+            int y = (panelPrincipal.Height - uCAjustes.Height) / 2;
+            uCAjustes.Location = new Point(x, y);
             this.panelPrincipal.Controls.Clear();
             this.panelPrincipal.Controls.Add(uCAjustes);
         }
 
+        private void FinalizarLector()
+        {
+            if (panelPrincipal.Controls.Count > 0) {
+
+                UserControl uc = (UserControl)panelPrincipal.Controls[0];
+                if (uc is UCIdentificar)
+                {
+                    UCIdentificar uci = (UCIdentificar)uc;
+                    uci.FinalizarLectorUC();
+                }
+                if (uc is UCRegistrar)
+                {
+                    UCRegistrar uci = (UCRegistrar)uc;
+                    uci.FinalizarLectorUC();
+                }
+
+            }
+        }
         private void PrincipalForm_FormClosing(object sender, FormClosingEventArgs e)
         {
             DialogResult res;
@@ -58,16 +80,34 @@ namespace PortonHuella2026
 
         private void btnRegistrar_Click(object sender, EventArgs e)
         {
-            UCIdentificar uCIdentificar = new UCIdentificar(_puertoArduino);
+            if (_puertoArduino == "")
+            {
+                MessageBox.Show("Seleccione el puerto de arduino");
+                return;
+            }
+            FinalizarLector();
+            UCRegistrar uCRegistrar = new UCRegistrar();
+            int x = (panelPrincipal.Width - uCRegistrar.Width) / 2;
+            int y = (panelPrincipal.Height - uCRegistrar.Height) / 2;
+            uCRegistrar.Location = new Point(x, y);
             this.panelPrincipal.Controls.Clear();
-            this.panelPrincipal.Controls.Add(uCIdentificar);
+            this.panelPrincipal.Controls.Add(uCRegistrar);
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            UCIdentificar uCRegistrar = new UCIdentificar(_puertoArduino);
+            if (_puertoArduino == "")
+            {
+                MessageBox.Show("Seleccione el puerto de arduino");
+                return;
+            }
+            FinalizarLector();
+            UCIdentificar uCIdentificar = new UCIdentificar(_puertoArduino);
+            int x = (panelPrincipal.Width - uCIdentificar.Width) / 2;
+            int y = (panelPrincipal.Height - uCIdentificar.Height) / 2;
+            uCIdentificar.Location = new Point(x, y);
             this.panelPrincipal.Controls.Clear();
-            this.panelPrincipal.Controls.Add(uCRegistrar);
+            this.panelPrincipal.Controls.Add(uCIdentificar);
 
         }
     }

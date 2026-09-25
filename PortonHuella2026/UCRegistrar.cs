@@ -53,7 +53,15 @@ namespace PortonHuella2026
             LectorHuella.IniciarIdentificacion();
             lbEstadoLector.Text = "Identificando...";
         }
-
+        
+        public void FinalizarLectorUC()
+        {
+            LectorHuella.HuellaEscaneadaRegistroEvent -= this.HuellaEscaneadaRegistro; //se dispara al ir registran las tres capturas de una huella, envía un int indicando cuántas capturas faltan
+            LectorHuella.HuellaCapturadaCorrectamenteRegistroEvent -= HuellaCatpuradaCorrectamenteRegistro; //se dispara al registrar la huella correctamente luego de 3 capturas, aquí se debe tomar el template
+            LectorHuella.HuellaEscaneadaIdentificacionEvent -= this.HuellaEscaneadaIdentificacion; // se dispara al identificar huella y envía id del usuario identificado
+            LectorHuella.ErrorCapturaHuellaEvent -= this.ErrorCapturaHuella; //se dispara al ocurrir cualquier error y envía como parámetro tipo string
+            LectorHuella.Finalizar();
+        }
         //manejadores de eventos
         private void HuellaEscaneadaIdentificacion(int id)
         {

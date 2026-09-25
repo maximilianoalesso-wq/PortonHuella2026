@@ -31,9 +31,12 @@ namespace PortonHuella2026
 
         ~UCAjustes() //destructor
         {
-            MessageBox.Show("Destructor"); //borrar esta linea
-            if (puertoArduino.IsOpen) 
-                puertoArduino.Close();
+            //MessageBox.Show("Destructor"); //borrar esta linea
+            if (puertoArduino != null)
+            {
+                if (puertoArduino.IsOpen)
+                    puertoArduino.Close();
+            }
         }
             
         private void btnSeleccionar_Click(object sender, EventArgs e)
